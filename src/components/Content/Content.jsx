@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import SkeletonVideo from "../Skeleton/SkeletonVideo";
 import SkeletonShort from "../Skeleton/SkeletonShort";
 
@@ -10,7 +10,7 @@ import { videos } from "../../services/videos";
 import { tags } from "../../services/tags";
 import { shorts } from "../../services/shorts";
 
-function Contents() {
+function Content() {
   return (
     <section className="bg-black h-full min-h-screen text-white overflow-y-auto">
       <div className="py-2 px-5 flex gap-3 text-sm font-medium fixed bg-black w-full overflow-x-auto">
@@ -46,8 +46,8 @@ function Contents() {
 export function Tag({ item }) {
   return (
     <p
-      className={`py-1 px-3 rounded-lg cursor-pointer hover:bg-gray-600 whitespace-nowrap ${
-        item.class ? item.class : "bg-gray-800"
+      className={`py-1 px-3 rounded-lg cursor-pointer hover:bg-zinc-700 whitespace-nowrap transition ${
+        item.class ? item.class : "bg-zinc-800"
       }`}
     >
       {item.title}
@@ -55,4 +55,4 @@ export function Tag({ item }) {
   );
 }
 
-export default Contents;
+export default Content;
