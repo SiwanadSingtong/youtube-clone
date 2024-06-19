@@ -18,9 +18,9 @@ function Navbar() {
             <RxHamburgerMenu className="text-2xl" />
           </button>
           <div className="flex items-center relative p-2">
-            <FaYoutube className="text-2xl text-red-500" />
+            <FaYoutube className="text-2xl text-red-600" />
             <p className="text-2xl font-semibold">Diatube</p>
-            <span className="absolute top-0 right-0 text-[10px] text-gray-300">
+            <span className="absolute top-1.5 right-0 text-[10px] text-gray-300">
               TH
             </span>
           </div>
@@ -47,8 +47,8 @@ function Navbar() {
             <RiVideoAddLine className="text-2xl" />
           </button>
           <button className="relative">
-            <IoMdNotificationsOutline className="text-2xl" />
-            <span className="absolute top-0 right-0 bg-red-600 rounded-full text-white w-3 h-3 text-[10px] flex items-center justify-center font-semibold">
+            <IoMdNotificationsOutline className="text-3xl" />
+            <span className="absolute top-0 right-0 bg-red-600 rounded-full text-white w-4 h-4 text-[12px] flex items-center justify-center font-semibold">
               5
             </span>
           </button>

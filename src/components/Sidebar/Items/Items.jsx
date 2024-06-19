@@ -13,7 +13,7 @@ import { BiMovie } from "react-icons/bi";
 import { MdAccessTime } from "react-icons/md";
 import { BiLike } from "react-icons/bi";
 import { TfiDownload } from "react-icons/tfi";
-
+import { LuDot } from "react-icons/lu";
 
 const iconMapping = {
   GoHome,
@@ -37,11 +37,16 @@ function Items({ item, className }) {
 
   return (
     <div
-      className={`${item.className} hover:bg-gray-500 flex gap-6 px-3 py-2 rounded-lg w-[180px] items-center transition cursor-pointer font-normal w-full`}
+      className={`${item.className} hover:bg-zinc-800 flex gap-4 px-3 py-2 rounded-lg items-center transition cursor-pointer font-normal w-full relative select-none`}
     >
       {IconComponent && <IconComponent className="text-lg" />}
-      {item.logo && <img src={item.logo} alt={item.title} className="rounded-full" />}
+      {item.logo && (
+        <img src={item.logo} alt={item.title} className="rounded-full" />
+      )}
       <p className={`${item.text_styles} line-clamp-1`}>{item.title}</p>
+      {item.new_upload && (
+        <LuDot className="text-blue-500 text-3xl absolute right-0" />
+      )}
       {SpanComponent && <SpanComponent className="text-lg" />}
     </div>
   );

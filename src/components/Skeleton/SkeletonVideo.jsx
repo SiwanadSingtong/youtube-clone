@@ -20,7 +20,7 @@ function SkeletonVideo({ item }) {
         />
         <div className="w-full flex flex-col gap-1">
           <p className="font-semibold line-clamp-2">{item.title}</p>
-          <p className="text-gray-300 font-medium text-sm">{item.channel_name}</p>
+          <p className="text-gray-300 font-medium text-sm line-clamp-1">{item.channel_name}</p>
           <div className="flex items-center font-medium text-sm text-gray-300">
             <p>{item.views} views</p>
             <LuDot className="text-lg" />
