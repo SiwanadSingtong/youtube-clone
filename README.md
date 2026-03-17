@@ -1,8 +1,14 @@
-# React + Vite
+# 🎥 Modern YouTube Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple functional YouTube clone built with **React JS**, **Tailwind CSS**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 🚀 Tech Stack
+
+- **Frontend:** [React.js](https://reactjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+
+## Example
+<img width="2540" height="1259" alt="image" src="https://github.com/user-attachments/assets/1b1cc226-19ae-421e-8bc5-5eb14c35e7cb" />
